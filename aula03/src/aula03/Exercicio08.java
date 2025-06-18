@@ -14,9 +14,14 @@ public class Exercicio08 {
 			arrayAlunos[i] = input.nextFloat();
 			}
 		
-		for(int j = 0 ; j < arrayAlunos.length;j++ ) {
+/*		for(int j = 0 ; j < arrayAlunos.length;j++ ) {
 			soma += arrayAlunos[j];
-			}
+			}*/
+		
+		for(float j : arrayAlunos) {
+			soma +=j;
+		}
+		
 		float media = soma / arrayAlunos.length;
 
 		System.out.printf("A média dos %d alunos é %.1f", arrayAlunos.length,media );
