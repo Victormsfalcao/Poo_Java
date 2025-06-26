@@ -4,5 +4,5 @@
 /**
  * 
  */
-module java_poo {
+module poo_java {
 }
